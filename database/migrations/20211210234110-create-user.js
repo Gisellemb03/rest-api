@@ -20,6 +20,9 @@ module.exports = {
       comments: {
         type: Sequelize.TEXT
       },
+      imagen: {
+        type: Sequelize.TEXT
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
